@@ -1,0 +1,108 @@
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+
+}
+ 
+ 
+ .hey{
+     width: 100%;
+ }  
+     
+
+.block{
+    display: block;
+}
+
+.bg-turkuaz {
+    color: white;
+    background:rgb(0,0,0,0.75);
+    border: 5px solid black;
+    
+}
+
+.bg-grey {
+    background: rgb(255, 255, 255) ;
+
+}
+
+
+.container {
+   max-width: 1100px; 
+   margin: 0 auto ;
+}
+
+
+.btn{
+    
+     border-radius: 20px;
+     color:white ;
+     padding: 0.5rem;
+}
+.btn-primary {
+    background: rgb(8, 3, 255);
+}
+
+.btn-primary:hover{
+    background: rgb(59, 56, 255);
+    border-radius: 20px;
+}
+.btn-dark{
+    color: white;
+    background: black;
+
+}
+.btn-dark:hover{
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
+
+/*forms*/
+ .form-group{
+     padding: 0.5rem 0;
+ }
+ .form-group label{
+     display: block;
+ }
+.form-control{
+    width: 100%;
+    padding: 0.5rem;
+    font: size 1rem; 
+    resize: none;
+}
+.input-bg{
+    background: black;
+    color: white;
+}
+
+.contact-title{
+    border:3px solid white;
+    margin: 1rem 0;
+}
+
+
+#contact .contact-form ul {
+    list-style-type:none;
+    display: flex;
+    margin: 2rem;
+    align-self: center;
+
+}
+#contact .contact-form ul a{
+   padding: 1rem;
+   font-size: 2rem; 
+}
+#contact .contact-form ul a:hover{
+    opacity: 0.6;
+}

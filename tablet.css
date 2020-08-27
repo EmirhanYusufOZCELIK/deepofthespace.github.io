@@ -1,0 +1,22 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 200px;
+}
+#navbar ul li a {
+    font-size : 1rem
+  }
+  #home img{
+      display: none;
+  }
+
+  #include{
+    
+    margin: 3rem 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 60rem;
+  }

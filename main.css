@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+    
+    
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+html {
+    font-family:'Russo One', sans-serif;;
+
+}
+
+body {
+    
+        background: url(5.jpeg) center center no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+    }    
+
+
+
+ 
+/* navbar bölümü */
+
+#navbar {
+    color:rgb(255, 255, 255);
+    display: flex;
+    margin: auto;
+    align-items:center;
+    padding: 0rem 0.75rem;
+    height: 70px;
+    position: relative
+}
+#big-title{
+    margin-right: 20rem;
+    margin-left: 2rem;
+}
+
+#navbar ul {
+    padding: 0.5rem 0rem;
+    border-left-style: solid ;
+    border-left-color: rgb(180,180,180);
+    border-left-width: 1px;
+    border-right-style: solid ;
+    border-right-color:rgb(180,180,180);
+    border-right-width: 1px;
+    list-style-type:none ;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#navbar ul li a {
+    border-right-style: solid;
+    border-right-color: rgb(180, 180, 180);
+    border-right-width:1px;
+    border-left-style: solid;
+    border-left-color: rgb(180,180,180);
+    border-left-width: 1px;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+#navbar ul li a:hover {
+    background: rgb(124, 124, 124);
+    border-radius: 32px;
+}
+
+i{
+    display: flex;
+    font-size: 50px;
+}
+
+/*home*/
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 1;
+    padding: 2rem;
+    margin: 3rem 2rem;
+    border: 5px solid rgb(8, 3, 255);
+    background:rgba(10, 10, 10,0.6)
+    
+
+}
+
+
+
+#home-img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 0%;
+    padding: 0.5rem 1rem;
+    
+    
+
+}
+
+#home .name {
+    padding: 6rem 10rem 4rem 10rem;
+}
+
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+    align-self: flex-end;
+    color:rgb(8, 3, 255);
+    letter-spacing: 2px;
+}
+ #home .name p{
+     opacity: 0.5;
+     align-self: flex-end;
+     color: grey
+ }
+ #bio-link{
+     background: rgb(8, 3, 255);
+     border-radius: 20px;
+     color:white ;
+     padding: 0.5rem;
+ }
+ #bio-link:hover{
+    background: rgb(59, 56, 255);
+    border-radius: 20px;
+    
+}
+
+
+/*içerik*/
+.h3{
+    width: 20rem;
+    color: white; 
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    border: 5px solid yellow;
+    border-left-color: blue;
+    border-bottom-color: red;
+    border-right-color: green;
+}
+.h3-size {
+    padding-top: 0;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+
+}
+
+#include{
+    
+    margin: 3rem 10rem;
+    
+    height: 20rem;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.include-box{
+   
+    width: 20rem;
+}
+.icons{
+    padding-left: 2rem;
+    
+    
+}
+
+#icon1 {
+    color: blue;
+}
+#icon2 {
+    color:red;
+}
+#icon3 {
+    color:green;
+}
+
+.baslik-p{
+    display: flex;
+    flex-direction: column;
+}
+
+#blog-baslik{
+    color: blue;
+    letter-spacing: 2px;
+}
+#space-baslik{
+    color: red;
+    letter-spacing: 2px;
+}
+
+#devolop-baslik{
+    color: green;
+    letter-spacing: 2px;
+}
+
+.include-p{
+    color: white;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+
+/*news*/
+
+
+#Random-Contents{
+    color: rgb(255, 255, 255);
+    padding: 5rem 5rem;
+
+}
+#random-contents-title{
+    margin-bottom: 5rem;
+    border: 10px double black;
+    background: rgba(0, 0, 0, 0.6);
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+
+}
+.contents .content {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contents .content .content-image {
+    margin-right: 3rem;
+    margin-bottom: 6rem;
+    position: relative;
+    padding: 3rem;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid blue;
+}
+
+.foto{
+    max-width: 25rem;
+    height: auto;
+    border-radius: 25px;
+    
+}
+.contents .content .content-image span{
+    background: blue;
+    padding: 0.25rem;
+    color: white;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 4rem;
+    right: 4rem;
+
+}
+
+.contents .content .content-info .title {
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.contents .content .content-info .description {
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    
+}
+.contents .content .content-info .instructor {
+    letter-spacing: 1px;
+    font-style: italic; 
+    opacity: 0.6; 
+}
+.contents .content .content-info .rating {
+    letter-spacing: 1px;
+    font-style: italic;
+    opacity: 0.6;
+    
+}
+
+/*contact*/
+#contact{
+    padding: 2rem;
+}
+#contact .contact-form{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;  
+}
